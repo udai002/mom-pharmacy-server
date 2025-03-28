@@ -7,7 +7,7 @@ require('dotenv').config();
 const app = express();
 
 // Use CORS middleware to allow requests from specific origins
-const allowedOrigins = ['http://localhost:3000', 'https://mom-employee.vercel.app'];
+const allowedOrigins = ['http://localhost:3000', 'https://mom-employee.vercel.app', 'https://mom-pharmacy-server.onrender.com'];
 
 // Configure CORS middleware
 const corsOptions = {
